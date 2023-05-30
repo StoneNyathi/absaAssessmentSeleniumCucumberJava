@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-05-30T06:12:39.254Z",
+        "line": 13,
+        "name": "Way2automation User Web tables",
+        "description": "",
+        "id": "home-page-for-way2automation;way2automation-user-web-tables;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "A user navigates to HomePage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Validate that you are on the User List Table",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "click add user",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user provide reg details FName1,LName1,User1,Pass1,Company AAA,Admin,admin@mail.com,825555",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "verify created users exist on page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTests"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-30T06:12:39.362Z",
+        "line": 14,
+        "name": "Way2automation User Web tables",
+        "description": "",
+        "id": "home-page-for-way2automation;way2automation-user-web-tables;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "A user navigates to HomePage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "Validate that you are on the User List Table",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "click add user",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "user provide reg details FName2,LName2,User2,Pass2,Company BBB,Customer,customer@mail.com,083444",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "verify created users exist on page",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTests"
+          }
+        ]
+      }
+    ],
+    "name": "Home page for Way2automation",
+    "description": "",
+    "id": "home-page-for-way2automation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/co/za/assessment/Assessment.feature",
+    "tags": []
+  }
+]
